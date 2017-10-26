@@ -1,0 +1,322 @@
+body {
+  background: #263645;
+  /* #384f66; #2c3e50; #263645; #202d3a; #1a252f; #141c24; #080b0e;*/
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.fa-stack {
+  margin-top: -15px;
+}
+
+.fa-stack .fa {
+  margin-top: 5px;
+}
+
+.navbar-default {
+  background: #263645;
+}
+
+.container-fluid {
+  width: 75%;
+}
+
+.container {
+  width: 75%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: white;
+}
+
+.page-header {
+  margin: 0;
+}
+
+.page-header h1 {
+  font-size: 4em;
+}
+
+.carousel {
+  margin: 0 -15px -32px -15px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  max-height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 100px;
+  color: white;
+  text-shadow: 1px 1px #080b0e;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+section .main {
+  padding-top: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+}
+
+.bg-info-muted {
+  background: rgba(52, 152, 219, .75);
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.taylor-happy-puppy img {
+  max-height: 300px;
+}
+
+#breed-history img {
+  width: 100%;
+  max-width: 512px;
+}
+
+#breed-history figure {
+  padding: 5px;
+}
+
+#breed-standard figure {
+  padding: 5px 20px 5px 5px;
+}
+
+#breed-health-concerns {
+  background: #d3e9f7;
+}
+
+.health-issues-container i {
+  font-size: 1.75em;
+}
+
+.health-issues {
+  display: block;
+  border: 0px solid;
+  min-width: 300px;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  color: white;
+  font-size: 1.15em;
+  margin-bottom: 20px;
+}
+
+.health-issues header {
+  border: 0px solid;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 1.25em;
+}
+
+.health-issues ul {
+  padding: 0px;
+}
+
+.health-issues li {
+  list-style-type: none;
+}
+
+.dog-profile-container {
+  clear:both;
+}
+
+.dog-profile {
+  display: block;
+  border: 1px solid rgba(52, 152, 219, .75);
+  text-align: left;
+  margin: 20px;
+  font-size: 1.15em;
+}
+
+.dog-profile header {
+  float: left;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.dog-profile .text-muted {
+  color: white;
+}
+
+.dog-profile h1 {
+  font-size: 1.5em;
+  margin: 5px;
+}
+
+.dog-profile h2 {
+  font-size: 1.25em;
+  margin: 5px;
+}
+
+.dog-profile header img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(52, 152, 219, .75);
+  border-radius: 50%;
+}
+
+.dog-profile div {
+  padding-top: 1em;
+}
+
+.dog-profile p {
+  text-align: justify;
+  font-size: 1em;
+}
+
+.dog-profile p span {
+  font-weight: bold;
+}
+
+.dog-profile a {
+  color: #141c24;
+}
+
+.dog-profile .modal {
+    display: flex !important;
+    height: 100%;
+}
+
+.dog-profile .modal .modal-dialog {
+    margin: auto;
+}
+
+.modal-content {
+    max-height: 90vh;
+	overflow: auto;
+}
+
+#cavalier-info-modal-luna img, 
+#cavalier-info-modal-taylor img {
+  max-height: 60vh;
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+}
+
+.tab-pane {
+  height: 100%;
+  margin: 10px;
+  overflow: auto;
+}
+
+.tab-photos {
+  overflow: hidden;
+}
+
+.tab-pane li {
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+.fa-download, .fa-external-link {
+  padding-left: 10px;
+}
+
+#puppies a {
+  color: #141c24;
+}
+
+iframe {
+  border: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Small devices (phones) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+
+  .fa-ul {
+    margin-left: 0
+  }
+
+  iframe {
+    min-height: 1000px;
+    margin-top: -50px;
+  }
+  
+  .dog-profile header img {
+    width: 100px;
+    height: 100px;
+    border: 0px solid;
+    border-radius: 50%;
+  }
+
+  .dog-profile p {
+    font-size: 0.95em;
+  }
+}
+
+/* Small devices (tablets,  and up) */
+@media (min-width: 768px) {
+  .container-fluid {
+    width: 85%;
+  }
+
+  .health-issues {
+    height: 300px;
+    width: 80%;
+  }
+
+  iframe {
+    min-height: 1000px;
+    margin-top: -100px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  iframe {
+    width: 60%;
+    min-height: 1100px;
+    margin-top: -100px;
+  }
+}
+
+/* Large devices (large desktops,  and up) */
+@media (min-width: 1200px) {
+  iframe {
+    width: 80%;
+    min-height: 1100px;
+    margin-top: -150px;
+  }
+}
