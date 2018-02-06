@@ -1,0 +1,46 @@
+{
+  "Name":"Jehannah Wild Flower",
+  "Sire":{
+    "Name":"Ch Cobbets Cockney Rebel (IMP UK)",
+    "Sire":{
+      "Name":"Cobbets Dizzy Rascal (UK)",
+      "Sire":{
+        "Name":"Maibee Montrose (UK)"
+      },
+      "Dam":{
+        "Name":"Cobbets Dizzy Doris (UK)"
+      }
+    },
+    "Dam":{
+      "Name":"Cobbets Lula Tallulah (UK)",
+      "Sire":{
+        "Name":"UK Ch Aranel Cosmic (UK)"
+      },
+      "Dam":{
+        "Name":"Cobbets Honey Bee (UK)"
+      }
+    }
+  },
+  "Dam":{
+    "Name":"Jehannah Nemesis",
+    "Sire":{
+      "Name":"GT Ch Barodaley Hugo Boss",
+      "Sire":{
+        "Name":"Ch Prenchy Patric Le Beau (IMP UK)"
+      },
+      "Dam":{
+        "Name":"Dougsba Summer Romance"
+      }
+    },
+    "Dam":{
+      "Name":"Ch Melloway Picturesque",
+      "Sire":{
+        "Name":"Ch Chantismere Chesterfield (IMP UK)"
+      },
+      "Dam":{
+        "Name":"Grand Ch Melloway Picture Perfect"
+      }
+    }
+  }
+}
+
